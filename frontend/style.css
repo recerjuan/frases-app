@@ -1,0 +1,75 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background-color: #f0f2f5;
+  }
+  
+  .app-container {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #2b2d42;
+    color: white;
+    padding: 20px;
+  }
+  
+  .sidebar h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #444;
+  }
+  
+  .sidebar li:hover {
+    background-color: #3e4050;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 30px;
+    background-color: white;
+  }
+  
+  .frases-container .frase {
+    background-color: #eef2f3;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 5px solid #007bff;
+  }
+  
+  form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form input, form textarea, form select {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #0056b3;
+  }
+  
